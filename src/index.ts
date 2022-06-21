@@ -37,7 +37,7 @@ const writeStream = createWriteStream(`${output}/widgets.csv`);
     const vote = await page.locator(".mx-name-container_reviewContent");
     let lastVote = "";
 
-    if (vote.count()) {
+    if (await vote.count()) {
       lastVote = await vote.first().innerText();
     }
 
