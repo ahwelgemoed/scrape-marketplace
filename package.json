@@ -1,0 +1,24 @@
+{
+  "name": "@ahwelgemoed/getmaketplacestats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "check": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ahwelgemoed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "playwright": "^1.22.2"
+  }
+}
